@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace OnlineShopping.Strategies
+{
+    public class NoDiscountStrategy: IDiscountStrategy
+    {
+        public decimal ApplyDiscount(decimal totalAmount)
+        {
+            return totalAmount;
+        }
+    }
+}
